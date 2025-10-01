@@ -1,15 +1,8 @@
 export default function AboutPage() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold mb-4">About FCC Austin</h1>
-      <p className="mb-4">
-        The Filipino Catholic Community (FCC) in Austin is a vibrant group dedicated
-        to celebrating our faith, culture, and heritage together.
-      </p>
-      <p>
-        We organize events, community outreach programs, and gatherings to foster
-        fellowship among Filipino Catholics in the area.
-      </p>
+    <div className="p-6 bg-muted rounded-lg shadow-lg">
+      <h1 className="text-3xl font-bold text-primary mb-4">About FACC Austin</h1>
+      <p className="text-gray-700">Welcome to the Filipino Austin Catholic Community website!</p>
     </div>
   );
 }

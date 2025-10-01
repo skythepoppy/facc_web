@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-gray-800`}
       >
         {/* Navbar */}
-        <header className="bg-blue-900 text-white shadow-md">
+        <header className="bg-blue-900 text-white shadow-md sticky top-0 z-50">
           <nav className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
             <div className="text-xl font-bold">FACC Austin</div>
             <ul className="flex space-x-6">
@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
         </header>
 
         {/* Main content */}
-        <main className="max-w-7xl mx-auto px-4 py-8">
+        <main className="max-w-7xl mx-auto px-4 py-12">
           {children}
         </main>
 
